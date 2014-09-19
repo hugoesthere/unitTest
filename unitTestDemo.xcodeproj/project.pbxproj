@@ -21,6 +21,7 @@
 		F6D986E919CCAF2000D4E306 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D986CB19CCAF2000D4E306 /* UIKit.framework */; };
 		F6D986F119CCAF2000D4E306 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6D986EF19CCAF2000D4E306 /* InfoPlist.strings */; };
 		F6D986F319CCAF2000D4E306 /* unitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D986F219CCAF2000D4E306 /* unitTestDemoTests.m */; };
+		F6D986FE19CCAF5400D4E306 /* HHSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D986FD19CCAF5400D4E306 /* HHSLModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F6D986EE19CCAF2000D4E306 /* unitTestDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "unitTestDemoTests-Info.plist"; sourceTree = "<group>"; };
 		F6D986F019CCAF2000D4E306 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6D986F219CCAF2000D4E306 /* unitTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unitTestDemoTests.m; sourceTree = "<group>"; };
+		F6D986FC19CCAF5400D4E306 /* HHSLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSLModel.h; sourceTree = "<group>"; };
+		F6D986FD19CCAF5400D4E306 /* HHSLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSLModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				F6D986DD19CCAF2000D4E306 /* HHSLViewController.m */,
 				F6D986DF19CCAF2000D4E306 /* Images.xcassets */,
 				F6D986CE19CCAF2000D4E306 /* Supporting Files */,
+				F6D986FC19CCAF5400D4E306 /* HHSLModel.h */,
+				F6D986FD19CCAF5400D4E306 /* HHSLModel.m */,
 			);
 			path = unitTestDemo;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				F6D986D419CCAF2000D4E306 /* main.m in Sources */,
 				F6D986DE19CCAF2000D4E306 /* HHSLViewController.m in Sources */,
+				F6D986FE19CCAF5400D4E306 /* HHSLModel.m in Sources */,
 				F6D986D819CCAF2000D4E306 /* HHSLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
